@@ -1,0 +1,37 @@
+body{
+    background-color: darkgrey;
+     background-image: url("https://img.freepik.com/premium-photo/blue-background-with-blue-background-that-says-blue_801037-67.jpg");
+     background-attachment: scroll;
+    
+}
+
+input:hover{
+    border-radius: 10px;
+    margin-top: -5px;
+    box-shadow: 2px 2px 5px black;
+    transition: 1s ;
+  
+}
+.row{
+    row-gap: 20px;
+    text-align: center;
+}
+
+@media(min-width:900px) {
+.card:hover{
+    margin-top: -10px;
+    box-shadow: 2px 2px 5px black;
+    transition: 1s ;
+      
+    }
+    
+}
+Button{
+   opacity: 1; 
+}
+Button:hover{
+    opacity:0.5;
+}
+Base{
+    position:fixed;
+}
